@@ -1,0 +1,9 @@
+{
+  "patch_reapplied_byte_identical": true,
+  "source_sha256": "18a138b66ee070ce96a0c6aa559176a4631780e5c52d415289aaef99e2b8479f",
+  "output_sha256": "3e6e6a9ec84582ec72daae35f1da7aa4225a91e25a7377eae76e5744c0db4f8f",
+  "patch_sha256": "df2363a929df9d336569e64c4606f3ed61e8b8ee580818bdf51c07a69101e000",
+  "modified_and_appended_sectors_validated": 20355,
+  "original_unchanged": true,
+  "emulator_verified": false
+}

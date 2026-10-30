@@ -1,0 +1,141 @@
+{
+  "game": "Riot Stars (Japan)",
+  "stage": "experimental_alpha12",
+  "source_sha256": "18a138b66ee070ce96a0c6aa559176a4631780e5c52d415289aaef99e2b8479f",
+  "output_sha256": "3e6e6a9ec84582ec72daae35f1da7aa4225a91e25a7377eae76e5744c0db4f8f",
+  "script_candidate_units": 8932,
+  "script_unique_sources": 2146,
+  "script_unique_draft_translated": 2146,
+  "static_unique_draft_translated": 1245,
+  "script_units_reinserted_experimental": 8929,
+  "static_occurrences_reinserted_experimental": 4519,
+  "reinsertion_outcomes": {
+    "script": {
+      "reinserted_experimental": 8929,
+      "excluded_nontext": 3
+    },
+    "static_four_executables": {
+      "reinserted_experimental": 4519,
+      "excluded_nontext": 10
+    },
+    "KOUSEI": "1293 catalogued occurrences plus fixed UI/scripts/save titles; first battle status rendered in HLE",
+    "emulator_verified": false
+  },
+  "glyph_cpu_cases_passed": 14884,
+  "tests_passed": 64,
+  "emulator_verified": false,
+  "overall_game_coverage_percent": null,
+  "limitations": [
+    "Full playthrough, alternate routes, saving/loading and all battles remain unverified",
+    "All 15 movies audited; 11 edited movies require complete playback testing in DuckStation",
+    "Unidentified formats may remain; no reliable whole-game denominator",
+    "ZDATA Japanese archive active loading not demonstrated; not modified",
+    "Some supplementary paragraphs have unproven runtime reachability",
+    "Battle font cave indirect calls cannot be fully excluded",
+    "Additional long item/skill names require runtime review; only three confirmed overlapping fields shortened in alpha12"
+  ],
+  "compact_unique_texts": 229,
+  "patch_reapplication_verified": true,
+  "patch_format": "BPS1",
+  "user_tested_alpha04": {
+    "emulator": "DuckStation",
+    "mode": "New Game",
+    "observed_ptbr": [
+      "Em meio à tempestade"
+    ],
+    "before_and_after_title": "Japanese"
+  },
+  "alpha05_opening_dialogues_reinserted": 61,
+  "alpha05_battle_static_reinserted": 1022,
+  "battle_candidate_inventory_strong_units": 1245,
+  "battle_inventory_translation_complete": false,
+  "alpha06_changes": [
+    "Os Escarlates",
+    "INICIAR",
+    "2026 DDevian below original copyright"
+  ],
+  "video_test_received": {
+    "filename": "Video 2026-10-29 19-25-36.mp4",
+    "reviewed": false,
+    "blocker": "Exceeds 32 MiB attachment transfer limit",
+    "attached_battle_screenshot_reviewed": true
+  },
+  "alpha07_changes": [
+    "@2026 Traduzido em PTBR DDevian in yellow and green",
+    "small-font unit label converter supports pair words",
+    "4 fixed-width startup options translated",
+    "naming prompts translated",
+    "Latin upper/lower/Portuguese accents naming keyboard"
+  ],
+  "alpha07_start_menu_rows": 4,
+  "alpha07_keyboard_selectable_cells_per_page": 58,
+  "alpha07_battle_label_model_verified": true,
+  "alpha08_changes": [
+    "153 additional battle dialogue units in subsequent encounter banks",
+    "222 pages with original pauses and spans preserved",
+    "all alpha07 UI and label fixes retained"
+  ],
+  "alpha08_new_dialogue_units_reinserted": 153,
+  "battle_dialogue_units_reinserted_total": 1391,
+  "alpha08_new_dialogue_pages": 222,
+  "alpha09_changes": [
+    "205 further dialogue units across287 pages",
+    "church and Capela rescue/Nakor reunion",
+    "Seneca and Shelby arms factory",
+    "sacred swamp/Maya/Shiron/Leclerc encounters",
+    "cumulative changelog distributed with patch"
+  ],
+  "alpha09_new_dialogue_units_reinserted": 205,
+  "alpha09_new_dialogue_pages": 287,
+  "changelog": "CHANGELOG.md",
+  "script_unique_sources_reinserted": 2143,
+  "static_catalogue_occurrences_reinserted_total": 5812,
+  "strong_battle_catalogue_translation_complete": true,
+  "strong_battle_catalogue_units_reinserted": 1245,
+  "alpha10_new_strong_dialogue_units": 838,
+  "alpha10_supplementary_stored_text_units": 134,
+  "alpha10_compact_unique_main_texts": 1176,
+  "alpha10_memorycard_message_pages_per_module": 18,
+  "alpha10_chapter_graphics_translated": 5,
+  "alpha10_changes": [
+    "Remaining strong battle catalogue inserted",
+    "Supplementary short replies and legacy paragraphs translated",
+    "All8916+13mainSCRIPTunitsinserted excluding3technical listings",
+    "62choicepages reviewed withlineandhorizontalspacing preservation",
+    "Allstaticcatalogueunits in5EXEsinserted",
+    "MemorycardUI in4modules, fixedbattleUI andcardmetadata",
+    "5script-referencedchaptercardgraphics inPTBR"
+  ],
+  "pending_work": "PENDENCIAS.md",
+  "alpha11_changes": [
+    "Small-unit-name mapping corrected against actual texture pixels",
+    "Small names uppercase with accent transliteration; dialog writing preserved",
+    "41 lookup bytes changed; all other alpha10 file payloads preserved"
+  ],
+  "user_report_alpha10": {
+    "emulator": "DuckStation",
+    "version_inferred_from_latest_patch": true,
+    "translation_progress": "Reported working well in tested segment",
+    "reported_issue": "unit-popup small text glyphs corrupt",
+    "full_playthrough_confirmed": false
+  },
+  "alpha11_emulator_verified": false,
+  "alpha12_extra_battle_units": 42,
+  "alpha12_battle_stored_units": 1433,
+  "alpha12_hud_label_records": 78,
+  "alpha12_aux_graphic_label_records": 41,
+  "alpha12_movie_frames_localized": 946,
+  "alpha12_runtime_test": {
+    "core": "PCSX-ReARMed",
+    "bios": "HLE",
+    "scope": [
+      "initial menu",
+      "Latin naming and É",
+      "opening dialogue",
+      "first battle",
+      "revised equipment and skill status fields"
+    ],
+    "full_playthrough": false,
+    "duckstation_tested": false
+  }
+}
