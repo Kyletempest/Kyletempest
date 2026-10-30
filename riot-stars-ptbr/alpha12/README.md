@@ -7,7 +7,7 @@
 Aplique apenas ao BIN japonês original. Não aplique sobre uma tradução anterior.
 SHA256 do original: `18a138b66ee070ce96a0c6aa559176a4631780e5c52d415289aaef99e2b8479f`.
 
-O pacote inclui aplicador Python, módulo BPS e CUE. Para uso, execute `python aplicar_patch.py --help`. Os dois arquivos Python devem ficar juntos.
+O pacote inclui aplicador Python, módulo BPS e CUE. Extraia o pacote e execute `python aplicar_patch.py` para selecionar o BIN numa janela, ou `python aplicar_patch.py "Riot Stars (Japan).bin" "Riot Stars PT-BR alpha12.bin"`. Para baixar separadamente, mantenha os dois arquivos Python, o BPS e `manifesto.json` na mesma pasta.
 
 O CSV cobre o roteiro principal, com japonês, português, posição e estado de inserção; não representa todo o texto gráfico e audiovisual.
 
